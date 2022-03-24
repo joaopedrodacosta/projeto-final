@@ -1,10 +1,6 @@
 package edu.mjv.school.projetofinal.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-
 import javax.persistence.*;
-import java.util.ArrayList;
-import java.util.List;
 
 @Entity
 @Table(name ="artista")

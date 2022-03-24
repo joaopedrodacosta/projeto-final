@@ -4,7 +4,6 @@ import edu.mjv.school.projetofinal.exception.ObjNotFoundException;
 import edu.mjv.school.projetofinal.model.Genero;
 import edu.mjv.school.projetofinal.model.Musica;
 import edu.mjv.school.projetofinal.model.Playlist;
-import edu.mjv.school.projetofinal.model.Usuario;
 import edu.mjv.school.projetofinal.repository.MusicaRepository;
 import edu.mjv.school.projetofinal.repository.PlaylistRepository;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -30,7 +30,7 @@ public class PlaylistController {
         return ResponseEntity.ok(playlistService.registrar(playlist));
     }
 
-    @PostMapping("/addMusicasByArtista/{id}")
+    @PostMapping("/addMusica/{id}")
     public ResponseEntity<Playlist> addMusica(@PathVariable int id, @RequestParam String key) {
 
         return ResponseEntity.ok(playlistService.addMusicas(id, key));

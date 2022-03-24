@@ -1,6 +1,5 @@
 package edu.mjv.school.projetofinal.service;
 
-import edu.mjv.school.projetofinal.exception.ObjNotFoundException;
 import edu.mjv.school.projetofinal.model.Usuario;
 import edu.mjv.school.projetofinal.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,5 @@
 package edu.mjv.school.projetofinal.repository;
 
-import edu.mjv.school.projetofinal.model.Artista;
 import edu.mjv.school.projetofinal.model.Genero;
 import edu.mjv.school.projetofinal.model.Musica;
 import org.springframework.data.jpa.repository.JpaRepository;

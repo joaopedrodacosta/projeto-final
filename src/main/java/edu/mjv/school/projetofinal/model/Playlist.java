@@ -1,8 +1,5 @@
 package edu.mjv.school.projetofinal.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import org.hibernate.engine.internal.Cascade;
-
 import javax.persistence.*;
 import java.util.List;
 
