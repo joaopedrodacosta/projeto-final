@@ -29,7 +29,7 @@ public class PlaylistService {
         return playlistRepository.save(playlist);
     }
 
-    public Playlist addMusicas(int id, String key){
+    public Playlist addMusicasByArtista(int id, String key){
         Optional<Playlist> result = playlistRepository.findById(id);
         List<Musica> musicas = musicaRepository.findArtistaMusicas(key);
         Playlist thePlay = null;
@@ -59,6 +59,25 @@ public class PlaylistService {
         }
         else {
             throw new ObjNotFoundException("Não foi possível achar a playlist "+ id);
+        }
+
+        return playlistRepository.save(thePlay);
+
+    }
+
+    public Playlist addMusicas(int id, String key){
+        Optional<Playlist> result = playlistRepository.findById(id);
+         Musica musica = musicaRepository.findByName(key);
+        Playlist thePlay = null;
+        List<Musica> aux = null;
+        if(result.isPresent()){
+            thePlay = result.get();
+            aux = thePlay.getMusicas();
+            aux.add(musica);
+            thePlay.setMusicas(aux);
+        }
+        else {
+            throw new ObjNotFoundException("Não foi possível achar a playlist "+id);
         }
 
         return playlistRepository.save(thePlay);

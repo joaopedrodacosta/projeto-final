@@ -7,7 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
+
 
 @RestController
 @RequestMapping("/playlist")
@@ -30,16 +30,21 @@ public class PlaylistController {
         return ResponseEntity.ok(playlistService.registrar(playlist));
     }
 
-
-
-    @PostMapping("/addMusicas/{id}")
+    @PostMapping("/addMusicasByArtista/{id}")
     public ResponseEntity<Playlist> addMusica(@PathVariable int id, @RequestParam String key) {
 
         return ResponseEntity.ok(playlistService.addMusicas(id, key));
     }
 
+
+    @PostMapping("/addMusicasByArtista/{id}")
+    public ResponseEntity<Playlist> addMusicasByArtista(@PathVariable int id, @RequestParam String key) {
+
+        return ResponseEntity.ok(playlistService.addMusicasByArtista(id, key));
+    }
+
     @PostMapping("/addMusicasByGenero/{id}")
-    public ResponseEntity<Playlist> addMusicaByGenero(@PathVariable int  id, @RequestParam String key) {
+    public ResponseEntity<Playlist> addMusicasByGenero(@PathVariable int  id, @RequestParam String key) {
 
         return ResponseEntity.ok(playlistService.addMusicasByGenero(id, key));
     }

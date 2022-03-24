@@ -4,21 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c3254b7-76df-4ee4-9460-5dce413d1b9a" name="Changes" comment="">
+    <list default="true" id="2c3254b7-76df-4ee4-9460-5dce413d1b9a" name="Changes" comment="versão final(talvez)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/ProjetoFinalApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/ProjetoFinalApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/controller/PlaylistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/controller/PlaylistController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/exception/ExistingEmailException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/model/Artista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/model/Artista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/model/Genero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/model/Genero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/model/Musica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/model/Musica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/model/Playlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/model/Playlist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/model/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/repository/ArtistaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/repository/ArtistaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/repository/PlaylistRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/repository/PlaylistRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/repository/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/repository/UsuarioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/repository/MusicaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/repository/MusicaRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/service/PlaylistService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/service/PlaylistService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648101848622</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="versão final(talvez)">
+      <created>1648154142891</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1648154142891</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -232,6 +229,7 @@
     <MESSAGE value="Arrumando os relacionamentos" />
     <MESSAGE value="Arrumando os relacionamentos e adicionando usuário" />
     <MESSAGE value="v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1" />
+    <MESSAGE value="versão final(talvez)" />
+    <option name="LAST_COMMIT_MESSAGE" value="versão final(talvez)" />
   </component>
 </project>
