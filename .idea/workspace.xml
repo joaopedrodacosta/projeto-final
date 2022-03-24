@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c3254b7-76df-4ee4-9460-5dce413d1b9a" name="Changes" comment="v1" />
+    <list default="true" id="2c3254b7-76df-4ee4-9460-5dce413d1b9a" name="Changes" comment="v1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/ProjetoFinalApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/ProjetoFinalApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/controller/MusicaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/controller/MusicaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/controller/PlaylistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/controller/PlaylistController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/model/Playlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/model/Playlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/repository/ArtistaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/repository/ArtistaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/repository/PlaylistRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/repository/PlaylistRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/repository/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/repository/UsuarioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/service/UserService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +54,7 @@
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>

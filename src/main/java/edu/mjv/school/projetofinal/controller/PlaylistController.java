@@ -1,10 +1,6 @@
 package edu.mjv.school.projetofinal.controller;
 
-import edu.mjv.school.projetofinal.model.Artista;
-import edu.mjv.school.projetofinal.model.Musica;
 import edu.mjv.school.projetofinal.model.Playlist;
-import edu.mjv.school.projetofinal.service.ArtistaService;
-import edu.mjv.school.projetofinal.service.MusicaService;
 import edu.mjv.school.projetofinal.service.PlaylistService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

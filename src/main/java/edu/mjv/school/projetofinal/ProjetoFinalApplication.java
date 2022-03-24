@@ -1,36 +1,15 @@
 package edu.mjv.school.projetofinal;
 
-import edu.mjv.school.projetofinal.model.Artista;
-import edu.mjv.school.projetofinal.model.Musica;
-import edu.mjv.school.projetofinal.model.Usuario;
-import edu.mjv.school.projetofinal.repository.ArtistaRepository;
-import edu.mjv.school.projetofinal.repository.MusicaRepository;
-import edu.mjv.school.projetofinal.repository.UsuarioRepository;
-import edu.mjv.school.projetofinal.service.ArtistaService;
-import edu.mjv.school.projetofinal.service.MusicaService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.Bean;
-import org.springframework.data.domain.Example;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Sort;
-import org.springframework.data.repository.query.FluentQuery;
 
-
-import java.sql.Array;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
-import java.util.function.Function;
 
 @SpringBootApplication
 public class ProjetoFinalApplication {
 
 	public static void main(String[] args) {
 
-		ApplicationContext context = SpringApplication.run(ProjetoFinalApplication.class, args);
+		 SpringApplication.run(ProjetoFinalApplication.class, args);
 
 
 	}
