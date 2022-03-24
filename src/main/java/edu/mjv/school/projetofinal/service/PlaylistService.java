@@ -4,6 +4,7 @@ import edu.mjv.school.projetofinal.exception.ObjNotFoundException;
 import edu.mjv.school.projetofinal.model.Genero;
 import edu.mjv.school.projetofinal.model.Musica;
 import edu.mjv.school.projetofinal.model.Playlist;
+import edu.mjv.school.projetofinal.model.Usuario;
 import edu.mjv.school.projetofinal.repository.MusicaRepository;
 import edu.mjv.school.projetofinal.repository.PlaylistRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,9 +23,10 @@ public class PlaylistService {
     @Autowired
     private MusicaRepository musicaRepository;
 
+
+
     public Playlist registrar(Playlist playlist){
         return playlistRepository.save(playlist);
-
     }
 
     public Playlist addMusicas(int id, String key){
@@ -80,7 +82,4 @@ public class PlaylistService {
         return thePlay;
     }
 
-    public List<Playlist> findAll(){
-        return playlistRepository.findAll();
-    }
 }

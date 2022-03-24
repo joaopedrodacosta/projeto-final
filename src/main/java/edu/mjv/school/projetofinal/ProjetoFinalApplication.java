@@ -11,7 +11,6 @@ public class ProjetoFinalApplication {
 
 		 SpringApplication.run(ProjetoFinalApplication.class, args);
 
-
 	}
 
 }

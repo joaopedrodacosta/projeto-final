@@ -15,13 +15,6 @@ public class Artista {
     private int id;
     @Column(length = 80)
     private String nome;
-    @JsonIgnore
-    @OneToMany(fetch = FetchType.LAZY,
-            mappedBy = "artista")
-    private List<Musica> musicas = new ArrayList<>();
-
-
-
 
     public int getId() {
         return id;
@@ -39,13 +32,6 @@ public class Artista {
         this.nome = nome;
     }
 
-    public List getMusicas() {
-        return musicas;
-    }
-
-    public void setMusicas(List musicas) {
-        this.musicas = musicas;
-    }
 
 
 

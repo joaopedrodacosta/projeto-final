@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface ArtistaRepository extends JpaRepository<Artista, Integer> {
-    @Query("Select a from Artista a where a.nome LIKE %?1%")
+    @Query("Select a from Artista a where a.nome = :keyword")
     Artista findByName(String keyword);
 
 }

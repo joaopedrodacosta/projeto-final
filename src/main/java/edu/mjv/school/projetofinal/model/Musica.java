@@ -22,10 +22,6 @@ public class Musica {
     @JoinColumn(name="artista_id")
     private Artista artista;
 
-    @JsonIgnore
-    @ManyToMany(mappedBy="musicas")
-    private List<Playlist> playlists;
-
 
     public int getId() {
         return id;
@@ -59,13 +55,6 @@ public class Musica {
         this.artista = artista;
     }
 
-    public List<Playlist> getPlaylists() {
-        return playlists;
-    }
-
-    public void setPlaylists(List<Playlist> playlists) {
-        this.playlists = playlists;
-        }
 
     public Genero getGenero() {
         return genero;

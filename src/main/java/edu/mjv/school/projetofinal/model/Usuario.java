@@ -20,12 +20,6 @@ public class Usuario {
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private String senha;
 
-    @Column(name = "playlists")
-    @JsonIgnore
-    @OneToMany(fetch = FetchType.LAZY,
-            mappedBy= "usuario")
-    private List<Playlist> playlists;
-
 
     public Usuario(int id, String nome, String email, String senha){
         this.id = id;
@@ -44,13 +38,6 @@ public class Usuario {
 
     }
 
-    public List<Playlist> getPlaylists() {
-        return playlists;
-    }
-
-    public void setPlaylists(List<Playlist> playlists) {
-        this.playlists = playlists;
-    }
 
     public String getNome() {
         return nome;

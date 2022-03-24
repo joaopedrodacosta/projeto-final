@@ -20,11 +20,9 @@ public class UserService {
         this.usuarioRepository = usuarioRepository;
     }
 
-    //Busca por id retornando uma exception utilizando o ElseThrow da classe optional
     public Usuario findById(int id) {
-        Optional<Usuario> obj = usuarioRepository.findById(id);
-        return obj.orElseThrow(() -> new ObjNotFoundException(
-                "Objeto não encontrado! Id: " + id + ", Tipo: " + Usuario.class.getName()));
+        Usuario usuario = usuarioRepository.findById(id);
+        return usuario;
     }
 
     public void delete(int id) {

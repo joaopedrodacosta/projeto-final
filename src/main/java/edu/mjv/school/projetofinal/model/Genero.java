@@ -6,7 +6,7 @@ public enum Genero {
 
 
         PAGODE("Pagode"), RAP("Rap"), INDIE("Indie"), ELETRONICA("Eletronica"),
-    HIP_HOP("HipHop"), MPB("MPB"), REGGIE("Reggie"), POP("Pop");
+    HIP_HOP("HipHop"), MPB("MPB"), REGGIE("Reggie"), POP("Pop"), SAMBA("Samba"), OUTROS("Outros");
 
         // atributos do enum
         private String nome;

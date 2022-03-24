@@ -38,10 +38,10 @@ public class PlaylistController {
         return ResponseEntity.ok(playlistService.addMusicas(id, key));
     }
 
-    @PostMapping("/addMusicasByGenero")
-    public ResponseEntity<Playlist> addMusicaByGenero(@RequestBody Playlist playlist, @RequestParam String key) {
+    @PostMapping("/addMusicasByGenero/{id}")
+    public ResponseEntity<Playlist> addMusicaByGenero(@PathVariable int  id, @RequestParam String key) {
 
-        return ResponseEntity.ok(playlistService.addMusicasByGenero(playlist.getId(), key));
+        return ResponseEntity.ok(playlistService.addMusicasByGenero(id, key));
     }
 
     @PutMapping
@@ -62,11 +62,6 @@ public class PlaylistController {
         return ResponseEntity.ok().body(obj);
     }
 
-    @GetMapping("/listarTodos")
-    public ResponseEntity<List<Playlist>>listarTodos() {
-
-        return ResponseEntity.ok(playlistService.findAll());
-    }
 
 
 
