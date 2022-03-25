@@ -1,6 +1,7 @@
 package edu.mjv.school.projetofinal.model;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "musica")
@@ -18,6 +19,8 @@ public class Musica {
     @ManyToOne
     @JoinColumn(name="artista_id")
     private Artista artista;
+
+    // Implementar many to many com playlist
 
 
     public int getId() {

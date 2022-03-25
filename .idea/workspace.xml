@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2c3254b7-76df-4ee4-9460-5dce413d1b9a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/controller/PlaylistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/controller/PlaylistController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/controller/ArtistaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/controller/ArtistaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/model/Musica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/model/Musica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/model/Playlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/model/Playlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/repository/MusicaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/repository/MusicaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/service/PlaylistService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mjv/school/projetofinal/service/PlaylistService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

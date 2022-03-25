@@ -17,6 +17,7 @@ public class Playlist {
         @JoinColumn(name = "usuario_id")
         private Usuario usuario;
 
+        //implementar Many to many
         @OneToMany(cascade= CascadeType.PERSIST)
         private List<Musica> musicas;
 

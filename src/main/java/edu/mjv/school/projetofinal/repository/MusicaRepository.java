@@ -14,8 +14,8 @@ public interface MusicaRepository extends JpaRepository<Musica, Integer> {
     @Query("Select m from Musica m left join Artista a on m.artista = a.id where a.nome = :keyword")
     List<Musica> findArtistaMusicas(String keyword);
 
-    @Query("Select m from Musica m where m.nome = :keyword")
-    Musica findByName(String keyword);
+
+    Musica findByNome(String keyword);
 
     List<Musica> findByGenero(Genero genero);
 }

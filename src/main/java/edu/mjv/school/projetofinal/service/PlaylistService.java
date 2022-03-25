@@ -66,7 +66,7 @@ public class PlaylistService {
 
     public Playlist addMusicas(int id, String key){
         Optional<Playlist> result = playlistRepository.findById(id);
-         Musica musica = musicaRepository.findByName(key);
+         Musica musica = musicaRepository.findByNome(key);
         Playlist thePlay = null;
         List<Musica> aux = null;
         if(result.isPresent()){

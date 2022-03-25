@@ -31,6 +31,7 @@ public class ArtistaController {
         Artista obj = artistaService.registrar(artista);
         return ResponseEntity.ok().body(obj);
     }
+
     @PutMapping
     public ResponseEntity<Artista> alterar(@RequestBody Artista artista) {
         Artista obj = artistaService.registrar(artista);
