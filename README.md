@@ -55,7 +55,7 @@ Para estabelecer a conexão com o banco de dados mysql utilizamos o Mysql connec
 ## UML - Diagrama de Classes
 
 
-![Diagrama](https://user-images.githubusercontent.com/20348833/159840400-b5f92387-73ba-4d8c-8fb6-073449652714.png)
+![Diagrama](https://user-images.githubusercontent.com/20348833/160012581-e405ea91-21ed-4608-8746-d9d188799de9.png)
 
 
 ## 📝 Projeto
@@ -67,4 +67,80 @@ Para acessar a API documentada no Swagger foi utilizada a url :
 
 >http://localhost:8080/swagger-ui/index.html
 
-Exemplos de JSON:
+
+/ A Jornada principal a ser realizada será criar um artista e criar uma música para esse artista, após isso criar um usuário com email e senha, criar uma playlist para esse usuário e por último adicionar músicas para essa playlist são 3 possibilidades: adicionar uma musica individualmente por nome, adicionar várias musicas de acordo com um artista ou de acordo com um genero.
+
+Exemplos em JSON utilizando o SWAGGER: 
+
+/Criando Artista
+
+    {
+        "id": 0,
+        "nome": "Zeca Pagodinho"
+    }
+
+/Criando Músicas -> Os generos disponíveis inicialmente são PAGODE, RAP, INDIE, ELETRONICA, HIP_HOP, MPB, REGGIE, POP, SAMBA, OUTROS.
+
+    {
+        "id": 0,
+        "nome": "Camarão Que Dorme A Onda Leva",
+        "duracao": 2.48,
+        "genero": "SAMBA",
+        "artista": {
+        "id": 18
+        }
+    }
+
+    {
+        "id": 0,
+        "nome": "Vacilão",
+        "duracao": 4.08,
+        "genero": "SAMBA",
+        "artista": {
+        "id": 18
+        }
+    }
+    
+/Criando Usuário
+
+    {
+         "id": 0,
+        "nome": "Leonardo",
+        "email": "leo@gmail.com",
+        "senha": "12345"
+    }
+    
+/Criando Playlist para o usuário criado acima
+
+    {
+        "id": 0,
+        "nome": "Playlist Projeto Final",
+        "usuario": {
+        "id": 13 
+        }
+    }
+    
+/Adicionando musica na Playlist do usuário criado
+
+Parametros
+
+    // id da playlist
+    id: 9 
+	
+	key: melhor eu ir 
+
+/Adicionando músicas do artista x na Playlist
+
+    // id da playlist
+     id: 9
+
+	key: zeca pagodinho	
+
+/Adicionando músicas do genero y na Playlist
+
+    // id da playlist
+         id 9
+		genero MPB
+
+
+
